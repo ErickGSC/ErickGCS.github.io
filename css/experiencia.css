@@ -7,6 +7,10 @@
   gap: 100px;
 }
 
+.experiencia-texto a {
+  color: #000000;
+}
+
 .experiencia .subtitulo {
   color: #e0e0e0;
 }

@@ -1,6 +1,5 @@
-.nome {
-  font-family: "";
-  font-size: 2.5rem;
+.foto-ww {
+  border-radius: 30px;
 }
 
 html {
@@ -16,6 +15,10 @@ html {
   align-items: center;
 }
 
+.header h1 {
+  font-size: 2.5rem;
+}
+
 .header-menu {
   display: flex;
   flex-wrap: wrap;
@@ -24,30 +27,12 @@ html {
 }
 
 .header-menu a {
-  display: inline-block;
   font-size: 1.125rem;
   line-height: 1.3;
   padding: 10px 20px;
   text-decoration: none;
   color: #141414;
   display: block;
-  position: relative;
-}
-
-.header-menu a::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0px;
-  background: #141414;
-  position: absolute;
-  margin-top: 4px;
-  transition: 0.3s;
-}
-
-.header-menu a:hover::after,
-.header-menu a.ativo::after {
-  width: 70%;
 }
 
 @media (max-width: 800px) {

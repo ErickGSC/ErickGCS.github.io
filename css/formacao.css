@@ -77,14 +77,20 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#a020f0, #8a2be2);
+  background: linear-gradient(#8a2be2, #a020f0);
   position: absolute;
   left: -24px;
 }
 
-.faculdade-instituicao {
+.faculdade-instituicao a {
   font-size: 1.125rem;
   color: #a3a3a3;
+}
+
+.faculdade-instituicao a:hover {
+  transition: 400ms;
+  color: #f7f7f7;
+  text-decoration: none;
 }
 
 .cursos {

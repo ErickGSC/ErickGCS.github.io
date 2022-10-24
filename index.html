@@ -17,7 +17,7 @@
 
 <body>
   <header class="header">
-    <h1>Erick Gesser Schaeffer</h1>
+    <h1 class="nome">Erick Gesser Schaeffer</h1>
     <nav>
       <ul class="header-menu">
         <li><a href="#experiencia">Experiência</a></li>
@@ -28,11 +28,33 @@
   </header>
 
   <main class="introducao">
-    <img class="foto-ww" src="./img/WWsis.jpg" alt="Foto na WW Sistemas" width="360" height="520">
+    <img class="foto-ww" src="./img/image 1.jpg" alt="Foto na WW Sistemas" width="360" height="520">
     <div>
-      <h1>Desenvolvedor<br>Front End &<br>UX/UI Designer</h1>
+      <h1 class="dev">Desenvolvedor Front End e UX/UI Designer</h1>
       <p>Localizado em Alfredo Wagner 🏖</p>
     </div>
+    <style>
+      .dev::after {
+        content: '|';
+        opacity: 1;
+        margin-left: 5px;
+        display: inline-block;
+        animation: blink .7s infinite;
+      }
+
+      @keyframes blink {
+
+        0%,
+        100% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
+
   </main>
 
   <section class="experiencia" id="experiencia" aria-label="Experiência">
